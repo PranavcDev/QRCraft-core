@@ -57,7 +57,7 @@ int main() {
         return 1;
     }
 
-    // cout << "Chosen QR Version: " << version << endl;
+
     applyTerminatorAndPadding(encodedBits, version, ecl);
 
     vector<unsigned char> temp = bitsToCodeWords(encodedBits);

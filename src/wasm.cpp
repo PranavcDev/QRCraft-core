@@ -8,8 +8,9 @@ using namespace emscripten;
 
 // This function acts as the bridge.
 // Returns a 1D vector: [dimension, matrix data...]
-std::vector<int> generate_qr_wasm(std::string input, char ecl) {
+std::vector<int> generate_qr_wasm(std::string input, std::string ecl_str) {
     try {
+        char ecl = ecl_str.empty() ? 'H' : ecl_str[0];
         // Utilize the elegantly unified single-header API
         qrcraft::QRCode Q(input, ecl);
         
