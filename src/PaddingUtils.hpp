@@ -1,5 +1,5 @@
 #pragma once
-#include "VersionUtils.h"
+#include "VersionUtils.hpp"
 #include <vector>
 
 inline void applyTerminatorAndPadding(std::vector<bool>& bits, int version, char ecl){

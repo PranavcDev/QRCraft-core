@@ -1,5 +1,5 @@
-#include "ModeEncoder.h"
-#include "VersionUtils.h"
+#include "ModeEncoder.hpp"
+#include "VersionUtils.hpp"
 
 using namespace std;
 

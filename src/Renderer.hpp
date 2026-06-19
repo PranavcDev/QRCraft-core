@@ -1,6 +1,6 @@
 #define STB_IMAGE_WRITE_IMPLEMENTATION
-#include "stb_image_write.h"
-#include "MatrixUtils.h"
+#include "stb_image_write.hpp"
+#include "MatrixUtils.hpp"
 
 void renderQRToPNG(
     const QRGrid& qr,

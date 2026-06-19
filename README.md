@@ -2,6 +2,8 @@
 
 A incredibly powerful, high-performance C++ QR Code Engine.
 
+🔗 **Try the Live Web App**: [https://pranavcdev.github.io/QRCraft-core/](https://pranavcdev.github.io/QRCraft-core/)
+
 QRCraft mathematically processes input strings through Alphanumeric, Numeric, and Byte encodings seamlessly, computes Reed-Solomon Error Correction, and generates a native, iterable 2D module array representing the complete QR Code—all natively without strictly requiring heavy external dependencies.
 
 This repository provides **two** distinct ways to execute the engine depending on your preference:

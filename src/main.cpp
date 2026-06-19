@@ -2,16 +2,16 @@
 #include <vector>
 #include <string>
 #include <filesystem>
-#include "ModeEncoder.h"
-#include "NumericEncoder.h"
-#include "AlphanumericEncoder.h"
-#include "ByteEncoder.h"
-#include "VersionUtils.h"
-#include "MatrixUtils.h"
-#include "PaddingUtils.h"
-#include "CodewordUtils.h"
-#include "Renderer.h"
-#include "VersionBlocks.h"
+#include "ModeEncoder.hpp"
+#include "NumericEncoder.hpp"
+#include "AlphanumericEncoder.hpp"
+#include "ByteEncoder.hpp"
+#include "VersionUtils.hpp"
+#include "MatrixUtils.hpp"
+#include "PaddingUtils.hpp"
+#include "CodewordUtils.hpp"
+#include "Renderer.hpp"
+#include "VersionBlocks.hpp"
 
 using namespace std;
 

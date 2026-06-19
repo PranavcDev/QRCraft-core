@@ -1,6 +1,6 @@
 #include <string>
-#include "ModeEncoder.h"
-#include "VersionUtils.h"
+#include "ModeEncoder.hpp"
+#include "VersionUtils.hpp"
 #include <cctype>
 using namespace std;
 

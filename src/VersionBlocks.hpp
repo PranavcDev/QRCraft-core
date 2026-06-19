@@ -3,8 +3,8 @@
 #include <cstdint>
 #include <cassert>
 
-#include "VersionUtils.h"
-#include "ErrorCorrection.h"
+#include "VersionUtils.hpp"
+#include "ErrorCorrection.hpp"
 
 // ISO/IEC 18004 block structure for error levels L, M, Q, H (index 1..40; 0 unused).
 // Row indices: 0 = L, 1 = M, 2 = Q, 3 = H
